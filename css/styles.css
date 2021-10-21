@@ -422,7 +422,7 @@
     color: #fff;
   }
 
-  .cta-button::before {
+  .cta-button.reverse::before {
     content: "";
     width: 22px;
     height: 20px;
@@ -482,10 +482,39 @@
     display: flex;
   }
 
+.content404 {
+  min-height: 530px;
+  background: #edf1f3;
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
 
-  main {
-    min-height: 50vh;
-  }
+.content404 .container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content404 .container img {
+  margin-bottom: 40px;
+  max-width: 100%;
+}
+
+.content404 .container h2 {
+  font-size: 72px;
+  line-height: 1.2;
+  color: #2c465a;
+  margin: 0;
+}
+
+.content404 .container h4 {
+  font-size: 25px;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  color: #2c465a;
+ }
 
   /**
   Footer
